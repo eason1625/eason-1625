@@ -4,7 +4,7 @@ def avatar_url():
     return None
 
 def send_webhook():
-    url = 'https://discordapp.com/api/webhooks/699307331191570514/4KaKkDhC2YMVrUt1MwfibEDgBlh-tWe9sd0C1bb1EE0yI_D_K_AKo2NFb8_G5BmnQ6IO'
+    url = 'webhook_link'
     webhook = Webhook.from_url(url, adapter=RequestsWebhookAdapter())
     embed = Embed(color=272183,title='Successful Checkout!',url='https://twitter.com/GaneshBot',\
     description='[Track Order](https://discordapp.com)')\
