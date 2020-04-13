@@ -4,7 +4,7 @@ def avatar_url():
     return "https://cdn.discordapp.com/avatars/597049067738103808/87268e7934f8da3add6bd5621ee610d5.webp?size=128"
 
 def send_webhook():
-    url = 'https://ptb.discordapp.com/api/webhooks/699263716859969586/o1YEjsT2aQtgG0NGgfHgaVxTkL9sVttTYLBKJ_hQt9ey5NSTRVnu0yrggHOK2YdpMN8q'
+    url = 'webhook_link'
     webhook = Webhook.from_url(url, adapter=RequestsWebhookAdapter())
     embed = Embed(color=65365,title='Successfully checked out!',\
     description='Rammellzee Tee')\
